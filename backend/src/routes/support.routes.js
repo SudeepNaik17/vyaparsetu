@@ -1,0 +1,10 @@
+import { Router } from "express";
+import * as controller from "../controllers/support.controller.js";
+import { protect } from "../middlewares/auth.middleware.js";
+const router = Router();
+router.use(protect);
+router.get("/", controller.listTickets);
+router.post("/", controller.upload, controller.createTicket);
+router.patch("/:id", controller.updateTicket);
+router.get("/:id/attachment", controller.attachment);
+export default router;

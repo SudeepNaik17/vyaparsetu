@@ -1,0 +1,42 @@
+export const mockCustomers = [
+  {
+    id: 1,
+    name: "Raju Kumar",
+    mobile: "9876522468",
+    total: 12640,
+    pending: 1680,
+    status: "Active",
+  },
+  {
+    id: 2,
+    name: "Sunita Verma",
+    mobile: "9817272871",
+    total: 8920,
+    pending: 2840,
+    status: "Active",
+  },
+  {
+    id: 3,
+    name: "Meena Shah",
+    mobile: "9987660040",
+    total: 2260,
+    pending: 0,
+    status: "Active",
+  },
+  {
+    id: 4,
+    name: "Mohan Yadav",
+    mobile: "9987651112",
+    total: 18400,
+    pending: 4250,
+    status: "Active",
+  },
+  {
+    id: 5,
+    name: "Suresh Patel",
+    mobile: "9123455667",
+    total: 6320,
+    pending: 0,
+    status: "Active",
+  },
+];

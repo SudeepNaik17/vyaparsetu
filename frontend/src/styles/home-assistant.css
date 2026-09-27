@@ -1,0 +1,21 @@
+.home-assistant { min-width: 0; order: 0; }
+.home-assistant .voice-card .waveform { height: 36px; margin: 14px auto; max-width: 440px; }
+.home-assistant .waveform i { flex: 1; min-width: 0; border-radius: 12px; }
+.waveform-active i { animation: voice-bar 0.8s ease-in-out infinite alternate; transform-origin: center; }
+@keyframes voice-bar { from { transform: scaleY(0.45); } to { transform: scaleY(1.8); } }
+.inline-type-button { display: block; margin: 16px auto 0; color: white; background: transparent; border: 0; text-decoration: underline; text-underline-offset: 4px; padding: 8px; }
+.inline-entry { margin-top: 16px; padding: 22px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); }
+.inline-entry .segments { margin-bottom: 20px; }
+.inline-entry textarea { width: 100%; resize: vertical; }
+.home-review { margin-top: 24px; scroll-margin-top: 24px; }
+.home-review .ai-preview { max-width: none; width: 100%; margin: 0; }
+.home-review > .button { margin-top: 16px; }
+.home-assistant button:disabled { cursor: wait; opacity: 0.6; }
+@media (max-width: 760px) {
+  .inline-entry { padding: 16px; }
+  .home-review .action-row { flex-wrap: wrap; }
+  .home-assistant .voice-card .waveform { gap: 4px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .waveform-active i, .home-assistant .voice-button.listening { animation: none; }
+}

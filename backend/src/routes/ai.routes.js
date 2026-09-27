@@ -1,0 +1,11 @@
+import { Router } from "express";
+import * as controller from "../controllers/ai.controller.js";
+import { protect } from "../middlewares/auth.middleware.js";
+import { rateLimit } from "../middlewares/rateLimit.js";
+const router = Router();
+router.use(protect, rateLimit(30, 60000));
+router.post("/chat", controller.chat);
+router.post("/preview", controller.chat);
+router.post("/drafts/:id/confirm", controller.confirm);
+router.post("/transcribe", controller.uploadAudio, controller.transcribe);
+export default router;

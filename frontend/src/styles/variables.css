@@ -1,0 +1,26 @@
+:root {
+  --brand: #971c28;
+  --brand-dark: #741722;
+  --cream: #fcf7f1;
+  --surface: #fff;
+  --surface-soft: #faf5ef;
+  --pink: #f8e5e1;
+  --border: #eadfd7;
+  --text: #271d1d;
+  --muted: #827571;
+  --success: #167c43;
+  --success-bg: #e8f8ed;
+  --danger: #c52631;
+  --danger-bg: #ffeae6;
+  --warning: #c55b22;
+  --warning-bg: #fff0e1;
+  --shadow: 0 3px 10px #642c2010;
+
+  /* Aesthetic Typography Hierarchy */
+  --font-display: "Outfit", "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-heading: "Plus Jakarta Sans", "Outfit", system-ui, -apple-system, sans-serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Nirmala UI", sans-serif;
+  --font-numeric: "Space Grotesk", "Outfit", "Inter", monospace, sans-serif;
+  --font-accent: "Space Grotesk", "Outfit", sans-serif;
+  --font-quote: "Fraunces", Georgia, serif;
+}

@@ -1,0 +1,48 @@
+[data-theme="dark"] {
+  color-scheme: dark;
+  --cream: #121212;
+  --surface: #1b1b1b;
+  --surface-soft: #242020;
+  --pink: #3c2428;
+  --border: #393231;
+  --text: #f7f3f0;
+  --muted: #b8b0ac;
+  --success: #81d49c;
+  --success-bg: #163525;
+  --danger: #ff969b;
+  --danger-bg: #48252b;
+  --warning: #ffc089;
+  --warning-bg: #422e21;
+  --shadow: 0 3px 10px #0002;
+}
+[data-theme="dark"] .text-brand,
+[data-theme="dark"] .metric strong,
+[data-theme="dark"] .brand,
+[data-theme="dark"] .section-heading > a,
+[data-theme="dark"] .chip,
+[data-theme="dark"] .secondary,
+[data-theme="dark"] .sidebar nav a.selected,
+[data-theme="dark"] .bottom-nav .selected,
+[data-theme="dark"] .text-button,
+[data-theme="dark"] .activity-row > strong,
+[data-theme="dark"] .udhaar-summary strong,
+[data-theme="dark"] .profile-avatar {
+  color: #f4a9b0;
+}
+[data-theme="dark"] .brand-mark,
+[data-theme="dark"] .chip.active,
+[data-theme="dark"] .segments .active {
+  color: white;
+}
+[data-theme="dark"] .auth-story .store-illustration {
+  opacity: 0.8;
+}
+
+[data-theme="dark"] .badge.warm,
+[data-theme="dark"] .icon-button,
+[data-theme="dark"] .sidebar nav a svg,
+[data-theme="dark"] .sidebar nav a.selected svg,
+[data-theme="dark"] .attachment,
+[data-theme="dark"] .support-categories button svg {
+  color: #efabb1;
+}
