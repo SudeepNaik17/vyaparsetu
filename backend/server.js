@@ -16,7 +16,7 @@ try {
   )
     throw new Error("Set JWT_SECRET to at least 32 random characters");
   await connectDB();
-  const server = app.listen(PORT, process.env.HOST || "127.0.0.1", () =>
+  const server = app.listen(PORT."0.0.0.0, () =>
     console.log("Backend ready on http://127.0.0.1:" + PORT),
   );
   process.on("SIGTERM", () => server.close(() => process.exit(0)));
